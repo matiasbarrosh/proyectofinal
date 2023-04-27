@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*color de fondo*/
+body{
+    background-color: rgb(31, 31, 31);
+}
+
+/*Nav bar font y opciones de texto*/
+body header nav div ul li, a{
+    color: #edf0f1;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*Box de la nav bar + logo*/
+header{    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 7%;
+    background-color: grey;
+}
+
+/*tamaño logo + modalidad cursor*/
+.logo{
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+}
+
+/*estilo, organizacion y decoraciones Nav bar*/
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 7px;
+}
+
+.nav__links li a{
+    transition: color 0.4s ease 0s;
+}
+
+.nav__links a:hover{
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+/*main part de la home page, imagen + texto descripcion*/
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#edf0f1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.wrapper{
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bandlogo{
+    max-width: 70%;
+    border-radius: 5px;
+    
+}
+
+.title{
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    width: 100%;
+    text-align: center;
+}
+
+.descripcion{
+    text-align: left;
+    font-size: 25px;
+    width: 100%;
+}
+
+/*Footer, socials + cpyr text*/
+footer{
+    background: aquamarine;
+    height: auto;
+    width: 100vw;
+    font-family: sans-serif;
+    padding-top: 14px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    text-align: center;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+}
+
+.socials a i{
+    font-size: 30px;
+    color: black;
+}
+
+.footer-text{
+    background: aquamarine;
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-text p{
+    font-size: 14px;
+    word-spacing: 1px;
+    color: black;
+}
+
+/*Tabla shows*/
+.shows-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 0%;
+    margin-left: 25%;
+  }
+  
+  .shows-table th, .shows-table td {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .shows-table th {
+    background-color: black;
+    font-weight: bold;
+    
+  }
+  
+  .shows-table tr:hover {
+    background-color: rgb(88, 88, 88);
+    color: black;
+  }
+  
+  .buy-tickets-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .buy-tickets-btn:hover {
+    background-color: #0069d9;
+  }
+
+  .shows-title{
+    color: white;
+    margin-top: 7%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;      
+}
+
+/*titulo y texto discografia*/
+.discografia-title{
+    margin-top: 7%;
+    margin-left: 7%;
+    text-align: left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+}
+
+.discografia-title h2{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/*espaciado embeds spotify*/
+.spotify-lists{
+    margin-left: 7%;
+    margin-top: 3%;
+
+}
+
+/*espaciado y ubicacion imagenes y videos*/
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    padding: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0.3%;
+}
+
+.videos{
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+/*formulario de contacto, fuente tamaño ubicacion*/
+form{
+    font-family: verdana;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 6%;
+    color: white;
+    text-decoration: underline;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input, textarea {
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+.enviar{
+    font-size: 23px;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+.contactanos{
+    margin-bottom: 25px;
+}
