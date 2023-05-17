@@ -1,0 +1,56 @@
+// media queries para responsive
+@media screen and (max-width: 767px) {
+    .wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bandlogo {
+      max-width: 100%;
+      margin-top: 8rem;
+    }
+  
+    .text-box {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .footer-content {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .footer-text {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .shows-table {
+      margin-top: 1rem;
+      margin-left: 5rem;
+    }
+  
+    .shows-title {
+      margin-top: 14rem;
+    }
+  
+    form {
+      margin-top: 10rem;
+      margin-bottom: 2rem;
+    }
+  
+    .spotify-lists iframe {
+      width: 100%;
+      height: 180px;
+    }
+  
+    .spotify-lists {
+      margin-top: 6rem;
+      margin-right: 8%;
+    }
+  
+    .gallery {
+      margin-top: 12rem;
+    }
+  }

@@ -1,0 +1,39 @@
+// main part de la home page, imagen + texto descripcion
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #edf0f1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  }
+  
+  .wrapper {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bandlogo {
+    max-width: 70%;
+    border-radius: 5px;
+  }
+  
+  .title {
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .descripcion {
+    text-align: left;
+    font-size: 25px;
+    width: 100%;
+  }

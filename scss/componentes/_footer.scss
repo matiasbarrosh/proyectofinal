@@ -1,0 +1,50 @@
+// Footer, socials + cpyr text
+footer {
+    background: aquamarine;
+    height: auto;
+    width: 100vw;
+    font-family: sans-serif;
+    padding-top: 14px;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  
+    li {
+      margin: 0 10px;
+  
+      a {
+        text-decoration: none;
+  
+        i {
+          font-size: 30px;
+          color: black;
+        }
+      }
+    }
+  }
+  
+  .footer-text {
+    background: aquamarine;
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+  
+    p {
+      font-size: 14px;
+      word-spacing: 1px;
+      color: black;
+    }
+  }

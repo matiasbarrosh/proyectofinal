@@ -1,0 +1,49 @@
+// Nav bar font y opciones de texto
+body header nav div ul li,
+a {
+  color: #edf0f1;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+// Box de la nav bar + logo
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 7%;
+  background-color: grey;
+}
+
+// tamaño logo + modalidad cursor
+.logo {
+  height: 40px;
+  width: auto;
+  cursor: pointer;
+}
+
+// estilo, organizacion y decoraciones Nav bar
+.nav__links {
+  list-style: none;
+
+  li {
+    display: inline-block;
+    padding: 0px 7px;
+
+    a {
+      transition: color 0.4s ease 0s;
+    }
+  }
+
+  li a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+  }
+}
